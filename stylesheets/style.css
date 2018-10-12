@@ -1,0 +1,228 @@
+
+header{
+  display:block;
+}
+
+.header-middle-area {
+    background: #ffffff none repeat scroll 0 0;
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+.logo {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+    text-transform: capitalize;
+    color: #232323;
+    line-height: 1;
+    margin-top:10px;
+}
+.main-menu {
+    float: right;
+}
+.main-menu li a {
+    color: #232332;
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.menu-area {
+    position: relative;
+}
+
+.fa {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font: normal normal normal normal normal normal normal 1 FontAwesome;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+}
+* {
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+li {
+    /*display: list-item;*/
+    color:black;
+    text-align: -webkit-match-parent;
+}
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+
+.hover-style-one li a {
+    position: relative;
+}
+
+.slider-style-2 {
+    background: rgba(0, 0, 0, 0) url(img/slider/2.jpg) repeat scroll center center / cover;
+    padding: 250px 0;
+}
+.slider-area {
+    padding: 100px 0 0;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-12 {
+    width: 100%;
+}
+.slider-style-2 .banner-static-content {
+    background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+    margin: 0 auto;
+    outline: 1px solid #fff;
+    outline-offset: 5px;
+    padding: 45px;
+    text-align: center;
+    width: 600px;
+}
+.banner-static-content h1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 22px;
+    padding-bottom: 12px;
+    position: relative;
+}
+.cd-headline {
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.slider-style-2 {
+    background: rgba(0, 0, 0, 0) url(images/slider_home_retocada.png) repeat scroll center center / cover;
+    padding: 250px 0;
+}
+
+.button {
+    background: transparent none repeat scroll 0 0;
+    color: #333333;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+a, button {
+    outline: medium none;
+    color: #4FC1F0;
+}
+
+.xboot-standard-row {
+    padding: 100px 0;
+}
+
+.container {
+    width: 970px;
+}
+
+
+element.style {
+    position: absolute;
+    left: 0%;
+    top: 0px;
+}
+.portfolio-not-full.portfolio-gutter {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.portfolio-style-2 .portfolio-item .portfolio-item-content {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+}
+.portfolio-item-content {
+    overflow: hidden;
+    position: relative;
+}
+.portfolio-3-column .portfolio-item {
+    width: 40%;
+}
+.portfolio-gutter .portfolio-item {
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.portfolio-item {
+    float: left;
+}
+.portfolio-img{
+  height: 300px;
+  width: 100;
+
+
+}
+.button {
+    background: transparent none repeat scroll 0 0;
+    color: #333333;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.portfolio-style-2 .portfolio-description {
+    background: #fff none repeat scroll 0 0;
+    opacity: 1;
+    padding: 20px;
+    position: static;
+    text-align: left;
+    transform: none;
+}
+.portfolio-description {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    background: transparent;
+    bottom: auto;
+    padding: 0;
+    text-align: center;
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-55%);
+    color: black;
+}
+
+.portfolio-category {
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+.nav-link{
+  color: white;
+/*  border-radius: 2px;*/
+  background-color: #D8D8D8
+
+}
+}
