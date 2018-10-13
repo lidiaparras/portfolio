@@ -16,9 +16,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Art Gallery-LPH</title>
+  <script src="./js/jquery.js"></script>
   <link rel="stylesheet" href="./stylesheets/normalize.css" type="text/css" >
   <link rel="stylesheet" href="./stylesheets/bootstrap.min.css" type="text/css" >
   <link rel="stylesheet" href="./stylesheets/style.css" type="text/css" >
+  <script src="./js/main.js"></script>
 
 </head>
 <body>
@@ -33,12 +35,13 @@
         <div class="col-md-2  col-sm-2 col-xs-3">
           <div class="logo">
             <a href="index.html">
-              <img src="./images/logo.png"  class="img-fluid" alt="Responsive image" class="img-thumbnail" a>
+              <img src="./images/logo.png"  class="img-fluid" alt="Lidia Parras" class="img-thumbnail" a>
             </a>
           </div>
         </div>
         <!--LOGO ENDS-->
         <!--INIT NAVBAR -->
+
         <div class="col-md-10 col-sm-10 hidden-xs hidden-sm">
           <div class="menu-area">
             <div class="d-flex justify-content-around"class="collapse navbar-collapse" id="navbarNav">
@@ -56,7 +59,7 @@
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                       </li>
                     </ul>
                   </div>
@@ -70,7 +73,10 @@
       </div>
     </div>
     <!--HEADER ENDS-->
-    <!-- SLIDER AREA ENDS-->
+    <!-- INIT SLIDER AREA
+    <section class="main" style="background-image: linear-gradient(81deg, rgba(117, 255, 192, 0.9) 15%, rgba(125, 224, 230, 0.7) 100%),
+  -->
+  <section class="main background_img" style="background-image:  url('images/background_sepia.jpg');">
     <div class=" slider-style-2">
       <div class="row">
         <div class="col-md-12">
@@ -79,35 +85,53 @@
 
             </h1>
             <p>Extremely motivated to constantly develop my skills and grow professionally. <Br>I am confident in my ability to come up with interesting ideas and working with other team members.</p>
-              <a href="#" class="button"> Contact Me -> </a>
+              <a href="#contact" class="button"> Contact Me -> </a>
             </div>  <!--banner-->
           </div><!--col-->
         </div><!--row-->
       </div><!--container-->
     </div><!--slider area-->
-    <!-- SLIDER AREA ENDS-->
+  </section>
+  <!-- SLIDER AREA ENDS-->
 
-    <!-- MAIN AREA START (ABOUT)-->
+  <!-- MAIN AREA START (ABOUT)-->
 
-    <div id="about">
-      <h1 class="text-center">This is me!</h1>
-      <div class="col-md-2  col-sm-2 col-xs-3">
-        <div class="logo">
-          <a href="index.html">
-            <img src="./images/Lidia.jpg"  class="img-fluid" alt="Responsive image" class="img-thumbnail" a>
-          </a>
+  <div id="about">
+    <h1 class="text-center top_margin title_section">This is me!</h1>
+    <div class="container-fluid">
+      <div class="text-center top_margin_section">
+        <div class="row">
+          <div class="col-sm-4 text-center">
+            <!--<div class="col-sm-12 col-md-4 col-lg-2">
+            <div class="text-center top_margin_section">-->
+            <img src="./images/Lidia_sepia.jpg"  class="img-fluid img_about" alt="">
+          </div>
+          <div class="col-sm-8" >
+            <div>
+              <p class="right_margin text_left">Extremely motivated to constantly develop my skills and grow professionally. <Br>I am confident in my ability to come up with interesting ideas and working with other team members Extremely motivated to constantly develop my skills and grow professionally.I am confident in my ability to come up with interesting ideas and working with other team membersExtremely motivated to constantly develop my skills and grow professionally. I am confident in my ability to come up with interesting ideas and working with other team membersExtremely motivated to constantly develop my skills and grow professionally. I am confident in my ability to come up with interesting ideas and working with other team membersExtremely motivated to constantly develop my skills and grow professionally.
+                I am confident in my ability to come up with interesting ideas and working with other team membersExtremely motivated to constantly develop my skills and grow professionally. <Br>I am confident in my ability to come up with interesting ideas and working with other team membersExtremely motivated to constantly develop my skills and grow professionally.
+                </p>
+              </div>
+            </div>
+          </div class="text_padding">
+          <p class="right_margin left_margin text_left text_padding"> I am confident in my ability to come up with interesting ideas and working with other team membersExtremely motivated to constantly develop my skills and grow professionally. <Br>I am confident in my ability to come up with interesting ideas and working with other team membersExtremely motivated to constantly develop my skills and grow professionally. <Br>I am confident in my ability to come up with interesting ideas and working with other team membersExtremely motivated to constantly develop my skills and grow professionally. <Br>I am confident in my ability to come up with interesting ideas and working with other team membersExtremely motivated to constantly develop my skills and grow professionally. <Br>I am confident in my ability to come up with interesting ideas and working with other team members.
+          </p>
         </div>
       </div>
+
     </div>
+
+
+
     <!-- MAIN AREA START (PORTFOLIO)-->
 
     <div id="portfolio">
-      <h1 class="text-center"> Projects</h1>
+      <h1 class="text-center top_margin title_section"> Projects</h1>
       <div class="content">
         <div class="xboot-standard-row">
           <div class="container">
 
-            <!-- INIT navbar portfolio-->
+            <!--INIT navbar portfolio que no la voy a incluir-->
             <!--<div class="col-md-10 col-sm-10 hidden-xs hidden-sm">
             <div class="menu-area">
             <div class="d-flex justify-content-around"class="collapse navbar-collapse" id="navbarNav">
@@ -124,6 +148,7 @@
     </div>
 
   </div>
+</div>
 </div>-->
 
 <!--navbar de portfolio-->
@@ -145,6 +170,8 @@
         </ul>
       </nav>
     </div>
+
+
     <div class="portfolio-item-content">
       <div class="thumbnail">
         <img class="portfolio-img"src="./images/IMG_3134.jpg" alt="">
@@ -153,36 +180,56 @@
 
     </div>
   </div>
-<div>
-  <div class="portfolio-item cat-1 cat-2 " style="position: absolute; left: 40%; top: 0px;">
-    <div class="portfolio-description">
-      <h4>
-        <a href="https://invis.io/9JN83W54WAB#/311070653_0_Inicio"> Fresh Ideas</a>
-      </h4>
-      <ul class="nav nav-pills nav-fill portfolio-category" >
-        <!-- class="portfolio-category"-->
-        <li>
-          <a class="nav-link " href="#">UX Desing</a>
-        </li>
-        <li>
-          <a class="nav-link" href="#">UI Design</a>
-        </li>
-      </ul>
-    </div>
-    <div class="portfolio-item-content">
-      <div class="item-thumbnail">
-        <img class="portfolio-img"src="./images/IMG_3136.jpg" alt="">
-        <a href="#"class="button"></a>
+  <div>
+    <div class="portfolio-item cat-1 cat-2 " style="position: absolute; left: 40%; top: 0px;">
+      <div class="portfolio-description">
+        <h4>
+          <a href="https://invis.io/9JN83W54WAB#/311070653_0_Inicio"> Fresh Ideas</a>
+        </h4>
+        <ul class="nav nav-pills nav-fill portfolio-category" >
+          <!-- class="portfolio-category"-->
+          <li>
+            <a class="nav-link " href="#">UX Desing</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">UI Design</a>
+          </li>
+        </ul>
       </div>
+      <div class="portfolio-item-content">
+        <div class="item-thumbnail">
+          <img class="portfolio-img"src="./images/IMG_3136.jpg" alt="">
+          <a href="#"class="button"></a>
+        </div>
 
+      </div>
     </div>
   </div>
-</div>
 
 </div>
 
+</div>
+</div> <!--class="xboot-standard-row"-->
+</div> <!-- content-->
+</div> <!--id portfolio-->
 
+<!-- MAIN AREA START (CONTACT)-->
 
+<div id="contact">
+  <h1 class="text-center top_margin title_section">Contact</h1>
+  <div class="container-fluid">
+    <div class="text-center top_margin_section">
+      <div class="row">
+        <div class="col-sm-2 text-center" >
+        HOLA
+        </div>
+        <div class="col-sm-10" >
+          ADIOS
+        </div>
+      </div> <!--end row-->
+    </div> <!--end text center-->
+  </div> <!--container-->
+</div>
 
 </body>
 </html>
@@ -208,7 +255,4 @@
 </a>
 </li>
 </ul>
-</nav>-->
-
-
 </nav>-->

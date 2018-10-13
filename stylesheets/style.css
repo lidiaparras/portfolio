@@ -46,7 +46,7 @@ div {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 14px;
@@ -220,9 +220,53 @@ element.style {
 }
 
 .nav-link{
-  color: white;
-/*  border-radius: 2px;*/
-  background-color: #D8D8D8
+  color: black;
+/*  border-radius: 2px;
+  background-color: #D8D8D8 */
+}
+
+.img_about {
+width: 50%;
+}
+
+.background_img{
+    background-image:url('images/background_BN_Claro.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text_right{
+  text-align:right;
+}
+.text_left{
+  text-align:left;
+}
+.top_margin{
+  margin-top: 200px;
+}
+
+.top_margin_section{
+  margin-top: 100px;
+}
+.right_margin{
+  margin-right: 100px;
+}
+
+.left_margin{
+  margin-left: 100px;
+}
+
+.title_section{
+  background-color: #D8D8D8;
+
 
 }
+
+.text_padding{
+  padding-top: 50px;
 }
