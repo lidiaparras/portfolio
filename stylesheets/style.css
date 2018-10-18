@@ -120,7 +120,7 @@ ul, menu, dir {
 }
 
 .slider-style-2 {
-    background: rgba(0, 0, 0, 0) url(images/slider_home_retocada.png) repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) url(images/slider_home_retocada.png) repeat scroll center right / cover;
     padding: 250px 0;
 }
 
@@ -270,3 +270,67 @@ width: 50%;
 .text_padding{
   padding-top: 50px;
 }
+
+/************************/
+
+.header-middle-area {
+    display: block;
+    background: none 0px 0px repeat scroll rgb(255, 255, 255);
+}
+
+.container_contact {
+    width: 1200px;
+}
+
+.row_contact {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: left;
+}
+.col-xs-12 {
+    width: 100%;
+}
+.logo_contact {
+    padding: 24px 0px;
+    transition: all 0.3s ease 0s;
+}
+
+.breadcrumb-area {
+    padding: 70px 0px;
+}
+
+.gray-bg {
+    background: rgb(248, 248, 248);
+}
+.breadcrumb-text-wrapper {
+    display: inline-block;
+}
+
+.page-name {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+
+.breadcrumb-area .breadcrumb-list {
+    display: inline-block;
+    float: right;
+    margin-top: 18px;
+}
+.site-contact-details, .site-contact-details li {
+  padding: 0;
+  margin: 0; }
+
+.site-contact-details li {
+  list-style: none;
+  margin-bottom: 20px; }
+  .site-contact-details li > span {
+    color: #2c3e50;
+    letter-spacing: .1em;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block; }
